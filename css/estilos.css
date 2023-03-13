@@ -1,0 +1,328 @@
+body{
+    background: #EBEBEB;
+}
+
+header{
+    
+    width: 1512px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: #fff159;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+
+}
+
+.info-basic {
+    
+    flex-direction: row;
+}
+
+    .info-basic .logo {
+        
+        width: 134px;
+        height: 34px;
+        left: 10px;
+        top: 11px;
+
+        
+    }
+
+.nav-form {
+    
+    flex-direction: row;
+    flex-direction: 5px;
+
+}
+
+    .nav-form form, .nav-form navbar{
+        padding: 15px 0;
+    }
+
+    .nav-form form input{
+        
+        width: 598px;
+        height: 39px;
+        left: 1px;
+        right: 1px;
+        top: 8px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+    }
+
+.data-acount {
+    
+    width: 253.25px;
+    height: 20px;
+    left: 39.95px;
+    top: 21px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 55px;
+    /* or 393% */
+
+    
+    align-items: center;
+    text-align: right;
+
+    color: #333333;
+}
+
+.uno{
+    background-image: url("../imagenes/prop.png");
+    width: 1512px;
+    height: 340px;
+    left: calc(50% - 1512px/2);
+    top: 0px;
+}
+
+
+
+.btn {
+       
+    width: 25px;
+    height: 25px;
+    left: 2px;
+    top: 0px;
+    border-radius: 50%;
+    margin-top: 300px
+    
+    
+}
+
+.ps{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.dos {
+    width: 1184px;
+    height: 90px;
+    left: calc(50% - 1184px/2);
+    top: 380px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    
+    margin: auto;
+    margin-top: 60px
+}
+
+.orden {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+}
+
+.parte {
+    
+    height: 100px;
+    
+  }
+
+  .tx {
+    
+    width: 150px;
+    height: 20px;
+    left: 84px;
+    top: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    padding-left: 95px;
+    margin-top: -40px;
+  }
+
+  .tx1 {
+    
+    width: 48px;
+    height: 15px;
+    left: 84px;
+    top: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 95px;
+    margin-top: 10px;
+    
+
+    color: #3483FA;
+    
+  }
+
+  .imgs{
+    
+    left: 25%;
+    right: 25%;
+    top: 33.33%;
+    bottom: 33.33%;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+  }
+
+  .info{
+    width: 224px;
+    height: 66px;
+    left: 8px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.1)M;
+    border-radius: 4px;
+  }
+
+  .precio{
+    width: 14px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    
+    align-items: center;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+  }
+
+  .descuento {
+
+    width: 55px;
+    height: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #00A650;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 105px;
+    margin-top: -20px;
+  }
+
+  .envio{
+    width: 73.18px;
+    height: 20px;
+    left: 0px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+   
+    display: flex;
+    align-items: center;
+
+    color: #00A650;
+    margin-top: 5px;
+  }
+
+  .envio1{
+    left: 0%;
+    right: 0.35%;
+    top: 21.18%;
+    bottom: 21.18%;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #00A650;
+  }
+
+  .productos{
+
+    width: 1184px;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .intermedio{
+    width: 82px;
+    height: 32px;
+    left: 8px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    color: #666666;
+    margin-top: 20px;
+    margin-left: 164px;
+
+  }
+
+  .intermedio2{
+    
+        width: 64px;
+        height: 20px;
+        left: 106.38px;
+        top: 10px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+
+        display: flex;
+        align-items: center;
+        margin-left: 266px;
+        margin-top: -20px;
+        color: #3483FA;
+  }
